@@ -11,7 +11,7 @@ module ConfigurableEnum
       EnumType.new(column_name, self, subtype)
     end
 
-    cache_key = "configurable_enum/#{self.class.name}/#{column_name}"
+    cache_key = "configurable_enum/#{self.name}/#{column_name}"
     # === Example for model `Book`'s column `category` ===
     # `Book.categories` returns the hash mapping from the stored data
     define_singleton_method query_method do
