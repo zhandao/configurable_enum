@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    configurable_enum (1.0.0)
+    configurable_enum (1.0.1)
       rails (>= 3.0)
 
 GEM
@@ -139,4 +139,4 @@ DEPENDENCIES
   rspec (~> 3.0)
 
 BUNDLED WITH
-   1.16.4
+   1.16.6

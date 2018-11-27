@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = 'Make ActiveRecord `enum` configurable: store the mapping in database instead of hard code'
   spec.description   = 'Make ActiveRecord `enum` configurable: store the mapping in database instead of hard code'
-  spec.homepage      = 'https://github.com/zhandao'
+  spec.homepage      = 'https://github.com/zhandao/configurable_enum'
   spec.license       = 'MIT'
 
   # Specify which files should be added to the gem when it is released.
