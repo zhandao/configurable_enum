@@ -1,0 +1,14 @@
+class Create<%= name_c %> < ActiveRecord::Migration::Current
+  def change
+    create_table :<%= name_up %>, force: :cascade do |t|
+      t.string  :label,   null: false
+      t.integer :value,   null: false
+      t.string  :remarks
+
+      t.timestamps
+    end
+
+    add_index :<%= name_up %>, :label, unique: true
+    add_index :<%= name_up %>, :value, unique: true
+  end
+end
